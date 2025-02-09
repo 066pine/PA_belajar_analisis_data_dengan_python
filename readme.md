@@ -1,5 +1,10 @@
 # Dashboard E-Commerce
 
+## Submisson by
+    Nama: Aprian Syahrani
+    Email: apyansy@gmail.com
+    ID Dicoding: Aprian Syahrani
+
 ## Setup Environment - Anaconda
 ```
 conda create --name main-ds python=3.9
