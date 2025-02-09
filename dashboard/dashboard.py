@@ -2,11 +2,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-orders_products_df = pd.read_csv("merged_orders_products.csv")
-orders_df = pd.read_csv("merged_orders.csv")
+orders_products_df = pd.read_csv("dashboard/merged_orders_products.csv")
+orders_df = pd.read_csv("dashboard/merged_orders.csv")
 
 st.sidebar.header("Navigation")
 page = st.sidebar.radio("", ["Dashboard", "Dataframe"])
+
 
 if page == "Dashboard":
     st.title("Dashboard E-Commerce")
