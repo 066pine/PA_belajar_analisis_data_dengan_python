@@ -1,9 +1,11 @@
 # Dashboard E-Commerce
 
-## Submisson by
+## Dicoding course submisson by
     Nama: Aprian Syahrani
     Email: apyansy@gmail.com
     ID Dicoding: Aprian Syahrani
+
+# How-To
 
 ## Setup Environment - Anaconda
 ```
