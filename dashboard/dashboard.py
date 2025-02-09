@@ -5,11 +5,6 @@ import matplotlib.pyplot as plt
 orders_products_df = pd.read_csv("dashboard/merged_orders_products.csv")
 orders_df = pd.read_csv("dashboard/merged_orders.csv")
 
-st.sidebar.header("Navigation")
-page = st.sidebar.radio("", ["Dashboard", "Dataframe"])
-
-
-if page == "Dashboard":
     st.title("Dashboard E-Commerce")
 
     with st.container(border=True):
@@ -41,10 +36,3 @@ if page == "Dashboard":
         ax.set_title("Top 10 Kategori Produk")
         plt.xticks(rotation=45)
         st.pyplot(fig)
-
-elif page == "Dataframe":
-    st.title("Dataframe")
-    st.header("orders")
-    st.write(orders_df)
-    st.header("product orders")
-    st.write(orders_products_df)
