@@ -12,6 +12,6 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 ## E-Commerce dashboard streamlit dashboard url
-```
-https://066pinepa1.streamlit.app/
-```
+
+<https://066pinepa1.streamlit.app>
+
