@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 orders_products_df = pd.read_csv("dashboard/merged_orders_products.csv")
 orders_df = pd.read_csv("dashboard/merged_orders.csv")
 
-
+st.title("Dashboard E-Commerce")
 with st.container(border=True):
     st.subheader("Summary highlight")
     col1, col2, col3 = st.columns(3)
