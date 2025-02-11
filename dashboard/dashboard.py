@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-orders_df = pd.read_csv("merged_orders.csv")
-orders_products_df = pd.read_csv("merged_orders_products.csv")
+orders_df = pd.read_csv("dashboard/merged_orders.csv")
+orders_products_df = pd.read_csv("dashboard/merged_orders_products.csv")
 
 st.set_page_config(layout="wide")
 
